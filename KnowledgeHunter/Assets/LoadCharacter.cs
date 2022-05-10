@@ -11,9 +11,12 @@ public class LoadCharacter : MonoBehaviour
 
     void Start()
     {
-        int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+        int selectedCharacter =PlayerPrefs.GetInt("selectedCharacter");
         GameObject prefab = characterPrefabs[selectedCharacter];
-        GameObject clone = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+        prefab.SetActive(true);
+        prefab.transform.position = spawnPoint.position;
+        prefab.transform.rotation = spawnPoint.rotation;
+        //GameObject clone = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
         //label.text = prefab.name;
     }
 
