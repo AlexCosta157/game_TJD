@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0286f9a2b37d9a344a94b5a4e38f2ea2, type: 3}
+  m_Name: BegginerSword
+  m_EditorClassIdentifier: 
+  name: Begginer Sword
+  description: Just a regular sword
+  frontSprite: {fileID: 0}
+  backSprite: {fileID: 0}
+  type1: 9
+  type2: 0
+  maxHp: 45
+  attack: 52
+  defense: 50
+  magicAtt: 10
+  magicDef: 10
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ff2104dd1e807204da1c19e6bc1f72be, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7c4c21ba1bae81c43894cef203d4b1db, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 2df757a76062a0041b7ec35e8e2f2206, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: a0d3d6476fdd50640aff0bffee0a846d, type: 2}
+    level: 7
