@@ -1117,7 +1117,7 @@ MonoBehaviour:
   controller: {fileID: 795831677}
   cam: {fileID: 269046990}
   speed: 6
-  turnSmoothTime: 0.1
+  turnSmoothTime: 0.04
 --- !u!143 &795831677
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1129,8 +1129,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.16
-  m_Radius: 0.54
+  m_Height: 2.01
+  m_Radius: 0.33
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
