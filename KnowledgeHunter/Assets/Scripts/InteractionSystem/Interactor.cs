@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using UnityEngine.InputSystem;
 
 public class Interactor : MonoBehaviour
 {
@@ -13,6 +14,14 @@ public class Interactor : MonoBehaviour
 
     private void Update(){
         _numFound = Physics.OverlapSphereNonAlloc(_interactionPoint.position, _interactionPointRadius, _colliders, _interactableMask);
+
+        if(_numFound > 0){
+            var interactable = _colliders[0].GetComponent<IInteractable>();
+
+            if(interactable != null && Input.GetKeyDown("e")){
+                interactable.Interact(this);
+            }
+        }
     }
 
     private void OnDrawGizmos(){
