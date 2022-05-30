@@ -16,7 +16,7 @@ public class LoadCharacter : MonoBehaviour
         GameObject prefab = characterPrefabs[selectedCharacter];
         prefab.SetActive(true);
         prefab.transform.position = spawnPoint.position;
-        prefab.transform.rotation = spawnPoint.rotation;
+        //prefab.transform.rotation = spawnPoint.rotation;
 
         /*GameObject prefab = characterPrefabs[selectedCharacter];
         prefab.SetActive(true);
