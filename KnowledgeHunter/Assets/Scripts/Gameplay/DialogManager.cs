@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogManager : MonoBehaviour
 {
     [SerializeField] GameObject dialogBox;
-    [SerializeField] Text dialogText;
+    //[SerializeField] Text dialogText;
     [SerializeField] int lettersPerSecond;
 
     public static DialogManager Instance {get; private set;}
@@ -16,10 +16,10 @@ public class DialogManager : MonoBehaviour
 
     public void ShowDialog(Dialog dialog){
         dialogBox.SetActive(true);
-        StartCoroutine(TypeDialog(dialog.Lines[0]));
+       // StartCoroutine(TypeDialog(dialog.Lines[0]));
     }
 
-    public IEnumerator TypeDialog(string dialog){
+    /*public IEnumerator TypeDialog(string dialog){
         
         dialogText.text = "";
         foreach (var letter in dialog.ToCharArray){
@@ -27,5 +27,5 @@ public class DialogManager : MonoBehaviour
             yield return new WaitForSeconds(1f / lettersPerSecond);
         }
         yield return new WaitForSeconds(1f);
-    }
+    }*/
 }
