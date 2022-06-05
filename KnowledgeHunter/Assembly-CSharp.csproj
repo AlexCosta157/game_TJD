@@ -53,6 +53,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\Weapon\WeaponBase.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractionPrompt.cs" />
      <Compile Include="Assets\CharacterSelection.cs" />
      <Compile Include="Assets\Scripts\Gameplay\DialogManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -68,7 +69,7 @@
      <Compile Include="Assets\Scripts\Weapon\MoveBase.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Scripts\Weapon\Move.cs" />
-     <Compile Include="Assets\Scripts\InteractionSystem\Chest.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\Chest.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
@@ -85,7 +86,7 @@
      <Compile Include="Assets\Scripts\Gameplay\BossSelection.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\Inventory.cs" />
-     <Compile Include="Assets\Scripts\InteractionSystem\treasure.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\treasure.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -712,6 +713,9 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/alex/Faculdade/0_TJD/gameFinalFinal/game_TJD/KnowledgeHunter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/alex/Faculdade/0_TJD/gameFinalFinal/game_TJD/KnowledgeHunter/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/alex/Faculdade/0_TJD/gameFinalFinal/game_TJD/KnowledgeHunter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
