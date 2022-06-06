@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 74441533}
   - component: {fileID: 74441532}
   m_Layer: 5
-  m_Name: Boss_3
+  m_Name: Boss_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -414,7 +414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 74441533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &74441533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1274,7 +1286,7 @@ GameObject:
   - component: {fileID: 1090979337}
   - component: {fileID: 1090979336}
   m_Layer: 5
-  m_Name: Boss_2
+  m_Name: Boss_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1288,7 +1300,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090979334}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.006577}
+  m_LocalPosition: {x: 0, y: 0, z: 9.006579}
   m_LocalScale: {x: 0.60832363, y: 0.6083237, z: 0.6083236}
   m_Children:
   - {fileID: 1899828706}
@@ -1298,7 +1310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.541786, y: 19.70684}
+  m_AnchoredPosition: {x: 13.4, y: 19.599998}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090979336
@@ -1344,7 +1356,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1090979337}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1090979337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,7 +1420,7 @@ GameObject:
   - component: {fileID: 1096767264}
   - component: {fileID: 1096767263}
   m_Layer: 5
-  m_Name: Boss_1
+  m_Name: Boss_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1466,7 +1490,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1096767264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1096767264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,7 +1657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -446}
+  m_AnchoredPosition: {x: 0, y: -419}
   m_SizeDelta: {x: 65.58, y: 17.0023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278186198
@@ -1636,6 +1672,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 507df7e951c49ab4c9a1b74945d79621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bosses:
+  - {fileID: 1693727609}
+  - {fileID: 1962026499}
+  - {fileID: 1861619188}
+  - {fileID: 1096767261}
+  - {fileID: 1090979334}
+  - {fileID: 74441530}
+  selectedBoss: 0
 --- !u!114 &1278186199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2572,7 +2616,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1693727612}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1693727612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,7 +2682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1720753454
 Transform:
   m_ObjectHideFlags: 0
@@ -2810,7 +2866,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1861619191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1861619191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2864,7 +2932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1872955217
 Transform:
   m_ObjectHideFlags: 0
@@ -3207,7 +3275,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1962026502}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1278186198}
+        m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
+        m_MethodName: SelectBoss
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1962026502
 MonoBehaviour:
   m_ObjectHideFlags: 0
