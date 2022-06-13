@@ -59,6 +59,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\Interactor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\MagicShopDoor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\Scripts\Gameplay\Dialog.cs" />
      <Compile Include="Assets\LoadCharacter.cs" />
