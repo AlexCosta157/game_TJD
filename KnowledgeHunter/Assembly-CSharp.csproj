@@ -55,6 +55,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\InteractionPrompt.cs" />
      <Compile Include="Assets\CharacterSelection.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\TavernDoor.cs" />
      <Compile Include="Assets\Scripts\Gameplay\DialogManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\Interactor.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\IInteractable.cs" />
      <Compile Include="Assets\Scripts\Gameplay\BossSelection.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\CastleDoor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\Inventory.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\treasure.cs" />
