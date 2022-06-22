@@ -7,13 +7,20 @@ public class MagShopManager : MonoBehaviour
 {
     public int coins;
     public TMP_Text coinUI;
-    public MagShopItemSO[] magShopItemsSo;    //collection of the items
+    public MagShopItemSO[] magShopItemsSO;    //collection of the items
+    public GameObject[] magShopPanelsGO;
     public MagShopTemplate[] magShopPanels;   //
+    //public Button[] myPurchaseBtns;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        for(int i = 0; i < magShopItemsSO.Length; i++)
+        {
+            magShopPanelsGO[i].SetActive(true);
+        }    
         coinUI.text = "Coins: " + coins.ToString();
+        LoadPanels();
     }
 
     // Update is called once per frame
@@ -31,11 +38,11 @@ public class MagShopManager : MonoBehaviour
 
     public void LoadPanels()
     {
-        for(int i = 0; i < magShopItemsSo.Lenght; i++)
+        for(int i = 0; i < magShopItemsSO.Length; i++)
         {
-            magShopPanels[i].titleTxt.text = magShopItemsSo[i].title;
-            magShopPanels[i].descriptionTxt.text = magShopItemsSo[i].description;
-            magShopPanels[i].costTxt.text = "Coins: " + magShopItemsSo[i].baseCost.ToString();
+            magShopPanels[i].titleTxt.text = magShopItemsSO[i].title;
+            magShopPanels[i].descriptionTxt.text = magShopItemsSO[i].description;
+            magShopPanels[i].costTxt.text = "Coins: " + magShopItemsSO[i].baseCost.ToString();
         }
     }
 
