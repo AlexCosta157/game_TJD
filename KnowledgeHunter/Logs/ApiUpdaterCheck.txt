@@ -402,3 +402,23 @@ C# parse time         : 166ms
 candidates check time : 27ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 25/06/2022 16:14:28 : Starting D:/programs/Unity/Unity Hub/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 809,2005ms
+moved types parse time: 99ms
+candidates parse time : 11ms
+C# parse time         : 465ms
+candidates check time : 34ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25/06/2022 16:22:37 : Starting D:/programs/Unity/Unity Hub/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 149,3697ms
+moved types parse time: 54ms
+candidates parse time : 4ms
+C# parse time         : 218ms
+candidates check time : 36ms
+console write time    : 0ms
+
