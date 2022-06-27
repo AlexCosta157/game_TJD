@@ -12,7 +12,7 @@ public class Chest : MonoBehaviour, IInteractable
     public bool Interact(Interactor interactor){
         //throw new System.NotImplementedException();
         Debug.Log("opening Chest"); 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
         return true;
     }
 }
