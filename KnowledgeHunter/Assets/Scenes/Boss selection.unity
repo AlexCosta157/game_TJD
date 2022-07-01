@@ -1672,13 +1672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 507df7e951c49ab4c9a1b74945d79621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bosses:
-  - {fileID: 1693727609}
-  - {fileID: 1962026499}
-  - {fileID: 1861619188}
-  - {fileID: 1096767261}
-  - {fileID: 1090979334}
-  - {fileID: 74441530}
   selectedBoss: 0
 --- !u!114 &1278186199
 MonoBehaviour:
@@ -2682,7 +2675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1720753454
 Transform:
   m_ObjectHideFlags: 0
@@ -2932,7 +2925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1872955217
 Transform:
   m_ObjectHideFlags: 0

@@ -15,11 +15,11 @@ D:/FACULDADE/Mestrado/6º Ano/TJD/jogo/game_TJD/KnowledgeHunter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59972
+57259
 Successfully changed project path to: D:/FACULDADE/Mestrado/6º Ano/TJD/jogo/game_TJD/KnowledgeHunter
 D:/FACULDADE/Mestrado/6º Ano/TJD/jogo/game_TJD/KnowledgeHunter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path D:/Program Files (x86)/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,110 +35,110 @@ Initialize mono
 Mono path[0] = 'D:/Program Files (x86)/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files (x86)/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files (x86)/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files (x86)/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files (x86)/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002887 seconds.
+Registered in 0.001999 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  0.835 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (58ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005964 seconds.
+Registered in 0.004024 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000012BE6F5FCC0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000029D0A023AD0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2D25010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000029D0A2C1020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2AFD030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000029D0952A200 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE630D010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000029D0A009E80 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64C5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000029D0A009E80 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE680FC30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000029D05C503B0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6344220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000029D05C503B0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE76B4FB0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000029D0A316020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64F4A30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000029D0A009E80 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE76B4FB0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000029D0A316020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64F4A30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000029D05C503B0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64F4A30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000029D0A2F0230 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64F4A30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000029D0A009E80 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE680FC30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000029D05C503B0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6A48010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000029D099FA020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE680FC30 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000029D0A023AD0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE76DD5C0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000029D099CB230 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.141 seconds
+- Completed reload, in  1.352 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2142ms)
-		BeginReloadAssembly (249ms)
+	ReloadAssembly (1353ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1805ms)
-			LoadAssemblies (644ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1061ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (484ms)
+			SetupTypeCache (358ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (478ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (340ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (274ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,15 +147,36 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1757 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.9 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2204.
-Total: 3.777100 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.091800 ms MarkObjects: 3.372500 ms  DeleteObjects: 0.073900 ms)
+Total: 4.130500 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.705900 ms  DeleteObjects: 0.189000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.7 MB.
+System memory in use after: 48.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 3.747100 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.090400 ms MarkObjects: 3.455600 ms  DeleteObjects: 0.022700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -171,641 +192,17 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/Fight.unity
   artifactKey: Guid(b7bf2bbc89dd71745b15942fdb404558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fight.unity using Guid(b7bf2bbc89dd71745b15942fdb404558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cfad713be2b6f671350ea166814308') in 0.035135 seconds 
+Start importing Assets/Scenes/Fight.unity using Guid(b7bf2bbc89dd71745b15942fdb404558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d565db80d2f55e52acdc01cfe58c695') in 0.041232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.495274 seconds.
-  path: Assets/Scenes/ArmorShop.unity
-  artifactKey: Guid(7214be70207b05a4eab33064b7eb4a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArmorShop.unity using Guid(7214be70207b05a4eab33064b7eb4a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cf430963898a7d53725639223df5a3') in 0.045546 seconds 
+  Time since last request: 485.849775 seconds.
+  path: Assets/Scripts/Gameplay/BossSelection.cs
+  artifactKey: Guid(507df7e951c49ab4c9a1b74945d79621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/BossSelection.cs using Guid(507df7e951c49ab4c9a1b74945d79621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5600fd22ede3143450a5056a7c9a9f5d') in 0.186448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.636653 seconds.
-  path: Assets/Scenes/MagicShop.unity
-  artifactKey: Guid(856bf34c82e4fbd43b1dfe2f4303882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MagicShop.unity using Guid(856bf34c82e4fbd43b1dfe2f4303882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccf5738b5a968871e205f5ba3bb685d') in 0.009769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.468591 seconds.
-  path: Assets/Scenes/NovoJogo.unity
-  artifactKey: Guid(66e8a3db75f425847b23aed006b43027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NovoJogo.unity using Guid(66e8a3db75f425847b23aed006b43027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563ec3998c894c06e830b43a4d761c44') in 0.004520 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006515 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BEA232020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA28EEF0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE73D1040 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5FAB010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE663D240 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64FC220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE62B9010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE906A410 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7919030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE663D240 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4BA030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA232020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE9DA3250 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1398ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1142ms)
-			LoadAssemblies (163ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (445ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (324ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2206.
-Total: 3.711000 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.072000 ms MarkObjects: 3.450200 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 404.459785 seconds.
-  path: Assets/Scripts/Gameplay/Fight.cs
-  artifactKey: Guid(e8897f34989d0ba43b5272359dab7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/Fight.cs using Guid(e8897f34989d0ba43b5272359dab7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e379ad453d99831eddb1a6e1d2e77d2') in 0.099940 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019386 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BE2AED010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA28EEF0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE73D1040 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE94BC020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE94BC020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE611E010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6F25010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE94BC020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE60A2020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7997010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7919030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE64EC220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6A76220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4BA030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2AED010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6701A20 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 18.111 seconds
-Domain Reload Profiling:
-	ReloadAssembly (18112ms)
-		BeginReloadAssembly (4663ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (100ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (13ms)
-			CreateAndSetChildDomain (514ms)
-		EndReloadAssembly (11305ms)
-			LoadAssemblies (6233ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (7259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (832ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (203ms)
-				ProcessInitializeOnLoadAttributes (580ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2208.
-Total: 3.212900 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.906400 ms  DeleteObjects: 0.021200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4275.755531 seconds.
-  path: Assets/Scripts/Fight
-  artifactKey: Guid(8a54ebb1953281049b19c033ad9ec3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fight using Guid(8a54ebb1953281049b19c033ad9ec3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f859daf1b984ccfa2ff8e903b7f2ed31') in 0.097054 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006299 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BE6A89430 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA28EEF0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE79A0E40 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE611E010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BECB74010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BECB00030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7919030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE98A5010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE611E010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6A48010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6A89430 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6677030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.745 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1753ms)
-		BeginReloadAssembly (519ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (1140ms)
-			LoadAssemblies (386ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (426ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2210.
-Total: 4.033100 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.083900 ms MarkObjects: 3.704600 ms  DeleteObjects: 0.055300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004202 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BEA232020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2FB9020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7E9FE50 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4A6010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4A6010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEB068930 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2615010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA580030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4A6010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6895A70 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2615010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7919030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4A6010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEB068930 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4BA030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA232020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA784030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.516 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1516ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1239ms)
-			LoadAssemblies (192ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2212.
-Total: 3.677500 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.070300 ms MarkObjects: 3.373500 ms  DeleteObjects: 0.041000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006693 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BE6A89430 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE2FB9020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEB5D3E50 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5E286E0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5E286E0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE961D060 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEDD78070 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BECD48A20 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5E286E0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6895A70 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEDD78070 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE7919030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5E286E0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE961D060 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA4BA030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6A89430 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE9D7C040 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.755 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1756ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1317ms)
-			LoadAssemblies (331ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (421ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (495ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 3.440300 ms (FindLiveObjects: 0.277300 ms CreateObjectMapping: 0.127200 ms MarkObjects: 3.004700 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1365.498440 seconds.
-  path: Assets/Fonts/Ancient Medium.ttf
-  artifactKey: Guid(3872d6e65d44ae04e869f2db49859e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ancient Medium.ttf using Guid(3872d6e65d44ae04e869f2db49859e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b6714637df28506864fc26db83df2') in 1.077121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
-  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d313bcea6b6ddf2c8c0bdfd1fb81dfc') in 0.087394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003704 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0d3d5e9fbf8ba6903c17dcbf477454') in 0.139763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001729 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
-  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac7beed70274322407e6f2201347ab') in 0.046000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.038565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Fonts/Enchanted Land.otf
-  artifactKey: Guid(cff7ca3753439b540a7ce4d8e9285ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Enchanted Land.otf using Guid(cff7ca3753439b540a7ce4d8e9285ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55740528decc3b7ffe1f6cf5477e5071') in 0.040431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcbddb7e72e92fa3a6f13b2b0717c42') in 0.041727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682bbb39787555d96ca66a99595bfc7') in 0.043879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1839.851979 seconds.
-  path: Assets/Scenes/NovoJogo.unity
-  artifactKey: Guid(66e8a3db75f425847b23aed006b43027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NovoJogo.unity using Guid(66e8a3db75f425847b23aed006b43027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2096e3eda08c50b585a67b4346fe71') in 0.026829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.337928 seconds.
-  path: Assets/Scenes/Boss selection.unity
-  artifactKey: Guid(eae4cadc34b957946b979dd9785783f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Boss selection.unity using Guid(eae4cadc34b957946b979dd9785783f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76545908326afafa0abc77e09235fad') in 0.008952 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007635 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000012BEADADBC0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE9D7C040 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA670280 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE925A220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5E286E0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5F63020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE29FA010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE97ED010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEC32A2D0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE6895A70 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE9832030 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEB488010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE925A220 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BE5F63020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEA76C010 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEADADBC0 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000012BEAEEA020 doesn't match image D:\FACULDADE\Mestrado\6º Ano\TJD\jogo\game_TJD\KnowledgeHunter\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1386ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1107ms)
-			LoadAssemblies (198ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2260.
-Total: 5.000800 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.064600 ms MarkObjects: 3.682700 ms  DeleteObjects: 1.081700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 435.900327 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61057960ca7973fa016a939c39e6ae53') in 0.020928 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
