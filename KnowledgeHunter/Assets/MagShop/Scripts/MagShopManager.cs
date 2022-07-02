@@ -54,8 +54,10 @@ public class MagShopManager : MonoBehaviour
         if(coins >= magShopItemsSO[btnNo].baseCost)
         {
             coins = coins - magShopItemsSO[btnNo].baseCost;
-            coinUI.text = "Coins: " + coins.ToString();
-            CheckPurchaseable();        
+            coinUI.text = "Coins: " + coins.ToString(); //sub coins
+            CheckPurchaseable();    //refresh store
+            //add item to inventory
+            //Inventory.instance.Add(item)
         }
     }
 

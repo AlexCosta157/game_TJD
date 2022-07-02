@@ -8,5 +8,7 @@ public class MagShopItemSO : ScriptableObject
     public string title;
     public string description;
     public int baseCost;
+    public Sprite icon = null;
+    public bool isDefaultItem = false;
 
 }

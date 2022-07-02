@@ -10,7 +10,7 @@ public class treasure : MonoBehaviour, IInteractable
 
     public bool Interact(Interactor interactor){
        
-        var inventory = interactor.GetComponent<Inventory>();
+        var inventory = interactor.GetComponent<Inventory_test>();
 
         if(inventory == null) return false;
 
