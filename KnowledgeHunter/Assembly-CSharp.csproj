@@ -93,9 +93,11 @@
      <Compile Include="Assets\Scripts\Gameplay\BossSelection.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\CastleDoor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\InteractionSystem\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Player\Item.cs" />
+     <Compile Include="Assets\Scripts\InteractionSystem\Inventory_test.cs" />
      <Compile Include="Assets\Scripts\InteractionSystem\InteractableObjs\treasure.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\Scripts\Player\Inventory.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
