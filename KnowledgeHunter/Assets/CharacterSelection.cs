@@ -6,38 +6,42 @@ using UnityEngine.SceneManagement;
 public class CharacterSelection : MonoBehaviour
 {
     public GameObject[] characters;
-    public int selectedCharacter=0;
+    
+    public int sexSelected = 0;
 
     void Start()
     {
-        characters[selectedCharacter].SetActive(true);
+        characters[sexSelected].SetActive(true);
     }
 
     public void Nextcharacter()
     {
-        characters[selectedCharacter].SetActive(false);
-        selectedCharacter++;
-        if (selectedCharacter >= characters.Length)
+        characters[sexSelected].SetActive(false);
+        sexSelected++;
+        if (sexSelected >= characters.Length)
         {
-            selectedCharacter = 0;
+            sexSelected = 0;
         }
-        characters[selectedCharacter].SetActive(true);
+        characters[sexSelected].SetActive(true);
     }
 
     public void PreviousCharacter()
     {
-        characters[selectedCharacter].SetActive(false);
-        selectedCharacter--;
-        if(selectedCharacter < 0)
+        characters[sexSelected].SetActive(false);
+        sexSelected--;
+        if(sexSelected < 0)
         {
-            selectedCharacter += characters.Length;
+            sexSelected += characters.Length;
         }
-        characters[selectedCharacter].SetActive(true);
+        characters[sexSelected].SetActive(true);
     }
 
     public void StartGame()
     {
-        PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
+        int armorLevel = 0;
+        PlayerPrefs.SetInt("armorLevel", armorLevel);
+        PlayerPrefs.SetInt("sexSelected", sexSelected);
+        //PlayerPrefs.SetInt("wasInCastle", 0);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

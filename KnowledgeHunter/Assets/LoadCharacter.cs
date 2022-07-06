@@ -1,34 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+
 
 public class LoadCharacter : MonoBehaviour
 {
-    public GameObject[] characterPrefabs;
+    public GameObject[] maleCharacterPrefabs;
+    public GameObject[] femaleCharacterPrefabs;
     public Transform spawnPoint;
-    //public TMP_Text label;
+    public Transform spanwCastle;
+    GameObject character;
 
     void Start()
     {
-
-        int selectedCharacter =PlayerPrefs.GetInt("selectedCharacter");
-        GameObject prefab = characterPrefabs[selectedCharacter];
-        prefab.SetActive(true);
-        prefab.transform.position = spawnPoint.position;
-
-        //prefab.transform.rotation = spawnPoint.rotation;
-
-        /*GameObject prefab = characterPrefabs[selectedCharacter];
-        prefab.SetActive(true);
-        prefab.transform.position = spawnPoint.position;
-        prefab.transform.rotation = spawnPoint.rotation;
-        GameObject clone =  (GameObject) Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
         
-        clone.AddComponent(Movement
-            );*/
-        //label.text = prefab.name;
+        int armorLevel = PlayerPrefs.GetInt("armorLevel");
+        int sexSelected = PlayerPrefs.GetInt("sexSelected");
+        int spawnMode= PlayerPrefs.GetInt("wasInCastle");
+
+        
+        if (sexSelected == 0)
+        {
+            character = maleCharacterPrefabs[armorLevel];
+            character.SetActive(true);
+            character.transform.position = spawnPoint.position;
+
+
+        }
+
+        if (sexSelected == 1)
+        {
+            character = femaleCharacterPrefabs[armorLevel];
+            character.SetActive(true);
+            character.transform.position = spawnPoint.position;
+
+        }
+
+        /*switch (spawnMode)
+        {
+            case 0:
+                character.transform.position = spawnPoint.position;
+                break;
+            case 1:
+                character.transform.position = spanwCastle.position;
+                break;
+
+        }*/
+        
     }
-
-
+    
 }
+
+

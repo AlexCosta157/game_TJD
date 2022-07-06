@@ -11,7 +11,7 @@ public class CastleDoor : MonoBehaviour, IInteractable
 
     public bool Interact(Interactor interactor){
         //throw new System.NotImplementedException();
-        Debug.Log("opening Armory"); 
+        Debug.Log("opening Castle Door");
         SceneManager.LoadScene(2);
         return true;
     }
