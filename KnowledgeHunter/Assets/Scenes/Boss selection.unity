@@ -343,7 +343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
-        m_MethodName: SelectBoss
+        m_MethodName: FightBoss
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1278,7 +1278,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
-        m_MethodName: SelectBoss
+        m_MethodName: FightBoss
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1412,7 +1412,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
-        m_MethodName: SelectBoss
+        m_MethodName: FightBoss
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1574,7 +1574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 507df7e951c49ab4c9a1b74945d79621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedBoss: 0
 --- !u!114 &1278186199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,7 +2366,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
         m_MethodName: FightBoss
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2678,7 +2677,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
-        m_MethodName: SelectBoss
+        m_MethodName: FightBoss
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3013,7 +3012,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278186198}
         m_TargetAssemblyTypeName: BossSelection, Assembly-CSharp
-        m_MethodName: SelectBoss
+        m_MethodName: FightBoss
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2681,10 +2681,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795831675}
-  - component: {fileID: 795831677}
   - component: {fileID: 795831676}
   - component: {fileID: 795831678}
   - component: {fileID: 795831679}
+  - component: {fileID: 795831677}
   m_Layer: 0
   m_Name: Third Person Player
   m_TagString: Untagged

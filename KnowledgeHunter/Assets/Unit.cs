@@ -11,4 +11,18 @@ public class Unit : MonoBehaviour
     public int currentHP;
     public int sex;
     public int armorWeapon;
+
+    public bool TakeDamage(int dmg)
+    {
+        currentHP -= dmg;
+
+        if(currentHP <= 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

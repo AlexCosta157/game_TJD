@@ -6,16 +6,16 @@ using UnityEngine.UI;
 
 public class BossSelection : MonoBehaviour
 {
-    public int selectedBoss = 0;
 
     public void SelectBoss(int index)
     {
         Debug.Log(index);
     }
 
-    public void FightBoss()
+    public void FightBoss(int selectedBoss)
     {
         PlayerPrefs.SetInt("selectedBoss", selectedBoss);
+        Debug.Log(selectedBoss);
         SceneManager.LoadScene(4);
     }
 
