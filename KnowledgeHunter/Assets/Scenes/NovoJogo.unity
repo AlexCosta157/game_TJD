@@ -1093,6 +1093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b585dd2ab2b94b4188ce228d04faeec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemsParent: {fileID: 0}
+  inventoryUI: {fileID: 1367242968}
 --- !u!1 &452918083 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3594243245622329198, guid: 6eedb7d74925bae4cb04ab0070fa5a62, type: 3}
