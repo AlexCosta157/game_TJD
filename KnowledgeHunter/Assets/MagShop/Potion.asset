@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e8d880f03224546a125d32a1059cfb, type: 3}
+  m_Script: {fileID: 11500000, guid: df832890186b0b741884753ed86aa563, type: 3}
   m_Name: Potion
   m_EditorClassIdentifier: 
-  title: Health Potion
-  description: Regenerates 20% HP
-  baseCost: 30
+  title: Potion
+  description: 
+  baseCost: 5
+  icon: {fileID: 0}
+  isDefaultItem: 0
+  showInInventory: 1

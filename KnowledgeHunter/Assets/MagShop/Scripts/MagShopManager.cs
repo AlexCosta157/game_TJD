@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MagShopManager : MonoBehaviour
 {
     public int coins;
     public TMP_Text coinUI;
-    public MagShopItemSO[] magShopItemsSO;    //collection of the items
+    public Item[] magShopItemsSO;    //collection of the items
     public GameObject[] magShopPanelsGO;
     public MagShopTemplate[] magShopPanels;   //
     public Button[] myPurchaseBtns;
@@ -57,7 +58,7 @@ public class MagShopManager : MonoBehaviour
             coinUI.text = "Coins: " + coins.ToString(); //sub coins
             CheckPurchaseable();    //refresh store
             //add item to inventory
-            //Inventory.instance.Add(item)
+            Inventory.instance.Add(magShopItemsSO[btnNo]);
         }
     }
 
@@ -72,6 +73,10 @@ public class MagShopManager : MonoBehaviour
     }
 
 
-
+    public void Exit()
+    {
+        Debug.Log("Kunami"); 
+        SceneManager.LoadScene(1);
+    }
 
 }

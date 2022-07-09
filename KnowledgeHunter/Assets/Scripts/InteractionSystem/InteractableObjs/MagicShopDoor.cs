@@ -12,7 +12,7 @@ public class MagicShopDoor : MonoBehaviour, IInteractable
     public bool Interact(Interactor interactor){
         //throw new System.NotImplementedException();
         Debug.Log("opening MagicShop"); 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(5);
         return true;
     }
 }

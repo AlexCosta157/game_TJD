@@ -38,6 +38,7 @@ public class InventoryUI : MonoBehaviour
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallback += UpdateUI;
+        inventoryUI.SetActive(false);
     }
 
     // Update is called once per frame
