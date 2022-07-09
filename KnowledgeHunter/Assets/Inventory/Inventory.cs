@@ -11,40 +11,45 @@ public class Inventory : MonoBehaviour
 
     void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Debug.LogWarning("More than one instance of inventory found!");
             return;
         }
-        instance = this;
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     #endregion
 
     public delegate void OnItemChanged();
-	public OnItemChanged onItemChangedCallback;
-    
-    public int space = 10;
+    public OnItemChanged onItemChangedCallback;
+
+    public int space = 12;
 
     public List<Item> items = new List<Item>();
 
-    public bool Add (Item item)
+    public void Add(Item item)
     {
-        if(!item.isDefaultItem)
+        if (item.showInInventory)
         {
-            if(items.Count >= space)
+            if (items.Count >= space)
             {
-                Debug.Log("Not Enough room.");
-                return false;
+                Debug.Log("Not enough room.");
+                return;
             }
 
             items.Add(item);
-        }
 
-        return true;
+            if (onItemChangedCallback != null)
+                onItemChangedCallback.Invoke();
+        }
     }
 
-    public void Remove (Item item)
+    public void Remove(Item item)
     {
         items.Remove(item);
     }

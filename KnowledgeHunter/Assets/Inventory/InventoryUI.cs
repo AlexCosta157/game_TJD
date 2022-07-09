@@ -4,6 +4,28 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
+
+    #region Singleton
+
+    public static InventoryUI instance1;
+
+    void Awake()
+    {
+        if (instance1 != null)
+        {
+            Debug.LogWarning("More than one instance of inventory found!");
+            return;
+        }
+        else
+        {
+            instance1 = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    #endregion
+
+
     public Transform itemsParent;
     public GameObject inventoryUI;
 
@@ -15,22 +37,33 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
         inventory = Inventory.instance;
-        //inventory.onItemChangedCallback += UpdateUI;
-        
-        //slots = itemsParent.GetComponentsInChildren<InventorySlot>();
+        inventory.onItemChangedCallback += UpdateUI;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Inventory"))
+        if (Input.GetButtonDown("Inventory"))
         {
             inventoryUI.SetActive(!inventoryUI.activeSelf);
+            UpdateUI();
         }
     }
 
     void UpdateUI()
     {
-        Debug.Log("UPDATING UI");
+        InventorySlot[] slots = GetComponentsInChildren<InventorySlot>();
+
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (i < inventory.items.Count)
+            {
+                slots[i].AddItem(inventory.items[i]);
+            }
+            else
+            {
+                slots[i].ClearSlot();
+            }
+        }
     }
 }
