@@ -28,10 +28,14 @@ public class Unit : MonoBehaviour
 
     public bool Heal()
     {
-        Debug.Log(Inventory.instance.items[0].title);
+        //Debug.Log(Inventory.instance.items[0].title);
         int potion = 0;
         int i;
-        for ( i=0; i< 12; i++)
+
+        if (Inventory.instance.items.Count == 0)
+            return false;
+        
+        for ( i=0; i < Inventory.instance.items.Count; i++)
         {
             if (Inventory.instance.items[i].title == "Potion")
             {
@@ -40,7 +44,7 @@ public class Unit : MonoBehaviour
             }
         }
 
-        if (potion >)
+        if (potion > 0)
         {
             currentHP += Inventory.instance.items[i].value;
             if (currentHP >= maxHP)
