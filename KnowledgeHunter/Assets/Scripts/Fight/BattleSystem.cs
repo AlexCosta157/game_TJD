@@ -147,7 +147,6 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EndBattle()
     {
-        Debug.Log("KUNAMI 2");
         if (state == BattleState.WON)
         {
             dialogueText.text = " You WON the Battle !";
