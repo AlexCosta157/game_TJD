@@ -25,4 +25,38 @@ public class Unit : MonoBehaviour
             return false;
         }
     }
+
+    public bool Heal()
+    {
+        Debug.Log(Inventory.instance.items[0].title);
+        int potion = 0;
+        int i;
+        for ( i=0; i< 12; i++)
+        {
+            if (Inventory.instance.items[i].title == "Potion")
+            {
+                potion ++;
+                break;
+            }
+        }
+
+        if (potion >)
+        {
+            currentHP += Inventory.instance.items[i].value;
+            if (currentHP >= maxHP)
+            {
+                currentHP = maxHP;
+
+            }
+            Inventory.instance.items.Remove(Inventory.instance.items[i]);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+            
+
+
+    }
 }

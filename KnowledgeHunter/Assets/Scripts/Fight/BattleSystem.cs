@@ -95,9 +95,32 @@ public class BattleSystem : MonoBehaviour
         }
         //change state based on what happend
     }
+
+    IEnumerator PlayerHeal()
+    {
+        bool isHeal = characterUnit.Heal(); //dou vida
+
+        if (isHeal)
+        {
+            characterHUD.SetHP(characterUnit.currentHP); //atualizo a barra
+            dialogueText.text = " The heal is successful!!"; //mensagem 
+
+        }
+        else
+        {
+            dialogueText.text = " You do not have Potions !!"; //mensagem
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        state = BattleState.ENEMYTURN;
+        StartCoroutine(BossAttack());
+       
+    }
+
     IEnumerator BossAttack()
     {
-        dialogueText.text = bossUnit.unitName + " atacks !";
+        dialogueText.text = bossUnit.unitName + " attacks !";
         yield return new WaitForSeconds(1f);
 
         bool isDead = characterUnit.TakeDamage(bossUnit.damage);
@@ -150,6 +173,16 @@ public class BattleSystem : MonoBehaviour
         }
 
         StartCoroutine(PlayerAttack());
+    }
+
+    public void OnHealButton()
+    {
+        if (state != BattleState.PLAYERTURN)
+        {
+            return;
+        }
+
+        StartCoroutine(PlayerHeal());
     }
 
 
