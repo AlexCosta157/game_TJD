@@ -28,7 +28,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9119105939453031736}
+  - {fileID: 6288340226286215191}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   currentHP: 100
   sex: 1
   armorWeapon: 0
---- !u!1001 &8720987530683339475
+--- !u!1001 &5822614883588081660
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -113,8 +113,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1cad531c07d163459535b746ab3f2a0, type: 3}
---- !u!4 &9119105939453031736 stripped
+--- !u!4 &6288340226286215191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1cad531c07d163459535b746ab3f2a0, type: 3}
-  m_PrefabInstance: {fileID: 8720987530683339475}
+  m_PrefabInstance: {fileID: 5822614883588081660}
   m_PrefabAsset: {fileID: 0}
