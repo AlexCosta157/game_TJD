@@ -32,6 +32,8 @@ public class Inventory : MonoBehaviour
 
     public List<Item> items = new List<Item>();
 
+    public int money = 50;
+
     public void Add(Item item)
     {
         if (item.showInInventory)

@@ -34,7 +34,7 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(SetupBattle());
     }
 
-    IEnumerator SetupBattle() // co-rotine, sao uma especie de funcao que correm separadamente de todas as outras e podem ser passadas à frente sempre que quisermos
+    IEnumerator SetupBattle() // co-rotine, sao uma especie de funcao que correm separadamente de todas as outras e podem ser passadas ï¿½ frente sempre que quisermos
     {
         int sexSelected = PlayerPrefs.GetInt("sexSelected");
         int armorLevel = PlayerPrefs.GetInt("armorLevel");
@@ -79,13 +79,16 @@ public class BattleSystem : MonoBehaviour
         bossHUD.SetHP(bossUnit.currentHP);
         dialogueText.text = " The attack is successful!!";
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         
         
         if (isDead)
         {
+            Debug.Log("KUNAMI");
             state = BattleState.WON;
-            EndBattle();
+            Debug.Log(state);
+            StartCoroutine(EndBattle());
+            
         }
         else
         {
@@ -144,9 +147,11 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EndBattle()
     {
+        Debug.Log("KUNAMI 2");
         if (state == BattleState.WON)
         {
             dialogueText.text = " You WON the Battle !";
+            Inventory.instance.money = Inventory.instance.money + (int)Random.Range(100f, 500f);
             
         }
         else if (state == BattleState.LOST)

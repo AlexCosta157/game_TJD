@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1061,6 +1061,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f47e1a053e851248a442ba1da2c1fd4, type: 3}
+--- !u!1 &513504967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7146521406498821007, guid: 7a9a824b1bdf8ab4db6357a16376b07d, type: 3}
+  m_PrefabInstance: {fileID: 222363160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &513504969
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513504967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.1657803, z: 1.9999995}
+  m_Center: {x: 0, y: -0.08289055, z: 0}
 --- !u!1 &570987612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9078726575682479619, guid: 6eedb7d74925bae4cb04ab0070fa5a62, type: 3}
@@ -1589,6 +1607,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0000002, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &682464637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5109514955321234697, guid: 67b7d449bdfa95642b37595f2158edaf, type: 3}
+  m_PrefabInstance: {fileID: 1667977399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &682464639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682464637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999999, z: 17.19217}
+  m_Center: {x: 2.1083375e-16, y: -0.00000011920928, z: 7.5960846}
 --- !u!1 &697514115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3742,6 +3778,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prompt: open chest
+--- !u!1 &1943355476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: add1a1e10bde9ff45be4cff6fea686ef, type: 3}
+  m_PrefabInstance: {fileID: 1180917045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1943355478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943355476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000007, y: 2.0000002, z: 1.9999996}
+  m_Center: {x: 0.00000047683716, y: 0, z: -0.00000011920929}
 --- !u!1001 &1947759079
 PrefabInstance:
   m_ObjectHideFlags: 0

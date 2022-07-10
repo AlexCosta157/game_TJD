@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Potion
   m_EditorClassIdentifier: 
   title: Potion
-  description: 
+  description: Gives 20% total health
   baseCost: 5
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: dd68ddbde87f97b45b6ab1e04e811738, type: 3}
   isDefaultItem: 0
   showInInventory: 1
+  value: 12

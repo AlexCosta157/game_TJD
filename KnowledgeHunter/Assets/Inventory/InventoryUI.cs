@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -32,12 +33,14 @@ public class InventoryUI : MonoBehaviour
     Inventory inventory;
 
     InventorySlot[] slots;
-
+    public TMP_Text coinUI;
+    
     // Start is called before the first frame update
     void Start()
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallback += UpdateUI;
+        coinUI.text = "Coins: " + Inventory.instance.money.ToString();
         inventoryUI.SetActive(false);
     }
 
@@ -54,6 +57,7 @@ public class InventoryUI : MonoBehaviour
     void UpdateUI()
     {
         InventorySlot[] slots = GetComponentsInChildren<InventorySlot>();
+        coinUI.text = "Coins: " + Inventory.instance.money.ToString();
 
         for (int i = 0; i < slots.Length; i++)
         {

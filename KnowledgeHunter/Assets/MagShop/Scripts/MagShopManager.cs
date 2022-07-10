@@ -21,7 +21,7 @@ public class MagShopManager : MonoBehaviour
         {
             magShopPanelsGO[i].SetActive(true);
         }    
-        coinUI.text = "Coins: " + coins.ToString();
+        coinUI.text = "Coins: " + Inventory.instance.money.ToString();
         LoadPanels();
         CheckPurchaseable();
     }
@@ -34,8 +34,8 @@ public class MagShopManager : MonoBehaviour
 
     public void AddCoins()
     {
-        coins++;
-        coinUI.text = "Coins: " + coins.ToString();
+        Inventory.instance.money++;
+        coinUI.text = "Coins: " + Inventory.instance.money.ToString();
         CheckPurchaseable();
     }
 
@@ -43,7 +43,7 @@ public class MagShopManager : MonoBehaviour
     {
         for(int i = 0; i < magShopItemsSO.Length; i++)
         {
-            if(coins >= magShopItemsSO[i].baseCost)
+            if(Inventory.instance.money >= magShopItemsSO[i].baseCost)
                 myPurchaseBtns[i].interactable = true;
             else
                 myPurchaseBtns[i].interactable = false;
@@ -52,10 +52,10 @@ public class MagShopManager : MonoBehaviour
 
     public void PurchaseItem(int btnNo)
     {
-        if(coins >= magShopItemsSO[btnNo].baseCost)
+        if(Inventory.instance.money >= magShopItemsSO[btnNo].baseCost)
         {
-            coins = coins - magShopItemsSO[btnNo].baseCost;
-            coinUI.text = "Coins: " + coins.ToString(); //sub coins
+            Inventory.instance.money = Inventory.instance.money - magShopItemsSO[btnNo].baseCost;
+            coinUI.text = "Coins: " + Inventory.instance.money.ToString(); //sub coins
             CheckPurchaseable();    //refresh store
             //add item to inventory
             Inventory.instance.Add(magShopItemsSO[btnNo]);
@@ -69,6 +69,7 @@ public class MagShopManager : MonoBehaviour
             magShopPanels[i].titleTxt.text = magShopItemsSO[i].title;
             magShopPanels[i].descriptionTxt.text = magShopItemsSO[i].description;
             magShopPanels[i].costTxt.text = "Coins: " + magShopItemsSO[i].baseCost.ToString();
+            magShopPanels[i].icon.sprite =  magShopItemsSO[i].icon;
         }
     }
 
