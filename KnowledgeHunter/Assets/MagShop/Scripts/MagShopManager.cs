@@ -76,7 +76,6 @@ public class MagShopManager : MonoBehaviour
 
     public void Exit()
     {
-        Debug.Log("Kunami"); 
         SceneManager.LoadScene(1);
     }
 

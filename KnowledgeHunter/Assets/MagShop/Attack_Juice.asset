@@ -15,7 +15,8 @@ MonoBehaviour:
   title: Attack Potion
   description: Boosts Attack
   baseCost: 30
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2f60987533ad5684590f558217d87d0e, type: 3}
   isDefaultItem: 0
+  armour_type: 0
   showInInventory: 1
   value: 30

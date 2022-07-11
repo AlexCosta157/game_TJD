@@ -841,7 +841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5934417651409408341, guid: 8f47e1a053e851248a442ba1da2c1fd4, type: 3}
       propertyPath: damage
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7504992176342010458, guid: 8f47e1a053e851248a442ba1da2c1fd4, type: 3}
       propertyPath: m_LocalScale.x

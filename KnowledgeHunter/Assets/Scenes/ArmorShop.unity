@@ -3089,7 +3089,10 @@ MonoBehaviour:
   coins: 0
   coinUI: {fileID: 1493863151}
   magShopItemsSO:
+  - {fileID: 11400000, guid: 94253323a5956dc47a60bde94d8f041d, type: 2}
   - {fileID: 11400000, guid: 2a982c52887201d4db5325f274af3861, type: 2}
+  - {fileID: 11400000, guid: ff8e86a298a6e944193ddb1d8173043c, type: 2}
+  - {fileID: 11400000, guid: c231348549109e6458564a8f72f75141, type: 2}
   magShopPanelsGO:
   - {fileID: 583657550}
   - {fileID: 1373646368}

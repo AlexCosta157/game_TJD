@@ -15,7 +15,8 @@ MonoBehaviour:
   title: Magic Juice
   description: Boosts magic Attack
   baseCost: 49
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 0e3a8377942ae3545a5219b6a5c5da23, type: 3}
   isDefaultItem: 0
+  armour_type: 0
   showInInventory: 1
   value: 38

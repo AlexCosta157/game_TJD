@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df832890186b0b741884753ed86aa563, type: 3}
   m_Name: War_armor
   m_EditorClassIdentifier: 
-  title: War_armor
+  title: Armor
   description: Gives protection
-  baseCost: 160
-  icon: {fileID: 0}
-  isDefaultItem: 0
+  baseCost: 1500
+  icon: {fileID: 21300000, guid: 6415b311eadf02e4390ec0bf937b396e, type: 3}
+  isDefaultItem: 1
+  armour_type: 2
   showInInventory: 1
   value: 35

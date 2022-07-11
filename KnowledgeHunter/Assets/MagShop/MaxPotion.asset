@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Max Potion
   description: Gives 50% os total health
-  baseCost: 40
-  icon: {fileID: 0}
+  baseCost: 60
+  icon: {fileID: 21300000, guid: e24a901764049c14aab15688d349f716, type: 3}
   isDefaultItem: 0
+  armour_type: 0
   showInInventory: 1
   value: 50
